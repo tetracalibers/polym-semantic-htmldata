@@ -24,23 +24,23 @@ export type AttrDiff<T1 extends Tag, T2 extends Tag> = (Omit<
     : never
   : never)[]
 
+export const attr = tagAttrMap
+
 export const compareAttr = <T1 extends Tag, T2 extends Tag>(
   tag1: T1,
   tag2: T2
-) => {
-  return {
-    full: {
-      [tag1]: tagAttrMap[tag1],
-      [tag2]: tagAttrMap[tag2]
-    } as { [t in T1 | T2]: TagAttrMap[t] },
-    only: {
-      [tag1]: _.without(tagAttrMap[tag1], ...tagAttrMap[tag2]),
-      [tag2]: _.without(tagAttrMap[tag2], ...tagAttrMap[tag1])
-    } as {
-      [t in T1 | T2]: t extends T1 ? AttrDiff<T1, T2> : AttrDiff<T2, T1>
-    }
+) => ({
+  full: {
+    [tag1]: tagAttrMap[tag1],
+    [tag2]: tagAttrMap[tag2]
+  } as { [t in T1 | T2]: TagAttrMap[t] },
+  only: {
+    [tag1]: _.without(tagAttrMap[tag1], ...tagAttrMap[tag2]),
+    [tag2]: _.without(tagAttrMap[tag2], ...tagAttrMap[tag1])
+  } as {
+    [t in T1 | T2]: t extends T1 ? AttrDiff<T1, T2> : AttrDiff<T2, T1>
   }
-}
+})
 
 type button = TagAttrMap['button']
 
@@ -66,5 +66,5 @@ export namespace ContentModel {
   export const flowNotPhrasing = _flowNotPhrasing
   export const flow = _flow
   export const phrasing = _phrasing
-  export const phrasingIfIncludePhasingOnly = _phrasingIfIncludePhrasingOnly
+  export const phrasingOnlyIfContainPhasing = _phrasingIfIncludePhrasingOnly
 }
