@@ -28,16 +28,18 @@
     "lint": "eslint --ext .tsx,.ts src/",
     "lintfix": "npm run lint -- --fix",
     "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\"",
-    "dump": "vite-node ./src/dumpster/index.ts --watch"
+    "dump": "vite-node ./src/script/dump.ts --watch"
   },
   "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
     "@types/lodash": "^4.14.185",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
-    "@vscode/web-custom-data": "^0.4.2",
+    "@vscode/web-custom-data": "*",
     "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "fs-extra": "^10.1.0",
     "json-microscope": "*",
     "prettier": "^2.7.1",
     "typescript": "^4.6.4",
