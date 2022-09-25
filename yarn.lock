@@ -179,7 +179,7 @@
     "@typescript-eslint/types" "5.38.0"
     eslint-visitor-keys "^3.3.0"
 
-"@vscode/web-custom-data@^0.4.2":
+"@vscode/web-custom-data@*":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@vscode/web-custom-data/-/web-custom-data-0.4.2.tgz#1531843db443e89851f4366a4c864bc6287c26d9"
   integrity sha512-A1jBlLJtOrQYBC1lefZXN2EURHo2cIu3lsQpctWNDfBmydorukhIgnfxTgGXIb+ZETQgrPgEqkWYLZAylMtJBw==
@@ -1080,11 +1080,10 @@ json-format@^1.0.1:
   integrity sha512-MoKIg/lBeQALqjYnqEanikfo3zBKRwclpXJexdF0FUniYAAN2ypEIXBEtpQb+9BkLFtDK1fyTLAsnGlyGfLGxw==
 
 json-microscope@*:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/json-microscope/-/json-microscope-1.1.5.tgz#1927dcb55781ae8e391a4bd85d091bc0f1b8ff76"
-  integrity sha512-ES7/uxRHl+lGXWvX+PcnBelKnZjKffK2bYr9d+tDMQPJiPFgFFWO7R1qrF6nVlEmhAU0MX4UtOtFxz2T4Y5Etw==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/json-microscope/-/json-microscope-2.0.1.tgz#17627aea0bdf0cbe04e564f0a3ecc8c72d98e2da"
+  integrity sha512-IIqXDUVSh3aOoUo2dBUUx85i99VVDcw0UWMvZoNOM6/nhjnrs0dkbL/aHViuGX1AfNAa9t0o2SaURNXRUbcxmw==
   dependencies:
-    fs-extra "^10.1.0"
     json-format "^1.0.1"
 
 json-schema-traverse@^0.4.1:

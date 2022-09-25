@@ -1,17 +1,8 @@
 {
-  "html": [
-    "manifest",
-    "version",
-    "xmlns"
-  ],
-  "head": [
-    "profile"
-  ],
+  "html": ["manifest", "version", "xmlns"],
+  "head": ["profile"],
   "title": [],
-  "base": [
-    "href",
-    "target"
-  ],
+  "base": ["href", "target"],
   "link": [
     "href",
     "crossorigin",
@@ -27,20 +18,8 @@
     "referrerpolicy",
     "title"
   ],
-  "meta": [
-    "name",
-    "http-equiv",
-    "content",
-    "charset",
-    "scheme"
-  ],
-  "style": [
-    "media",
-    "nonce",
-    "type",
-    "scoped",
-    "title"
-  ],
+  "meta": ["name", "http-equiv", "content", "charset", "scheme"],
+  "style": ["media", "nonce", "type", "scoped", "title"],
   "body": [
     "onafterprint",
     "onbeforeprint",
@@ -87,39 +66,15 @@
   "footer": [],
   "address": [],
   "p": [],
-  "hr": [
-    "align",
-    "color",
-    "noshade",
-    "size",
-    "width"
-  ],
-  "pre": [
-    "cols",
-    "width",
-    "wrap"
-  ],
-  "blockquote": [
-    "cite"
-  ],
-  "ol": [
-    "reversed",
-    "start",
-    "type",
-    "compact"
-  ],
-  "ul": [
-    "compact"
-  ],
-  "li": [
-    "value",
-    "type"
-  ],
+  "hr": ["align", "color", "noshade", "size", "width"],
+  "pre": ["cols", "width", "wrap"],
+  "blockquote": ["cite"],
+  "ol": ["reversed", "start", "type", "compact"],
+  "ul": ["compact"],
+  "li": ["value", "type"],
   "dl": [],
   "dt": [],
-  "dd": [
-    "nowrap"
-  ],
+  "dd": ["nowrap"],
   "figure": [],
   "figcaption": [],
   "main": [],
@@ -139,18 +94,14 @@
   "small": [],
   "s": [],
   "cite": [],
-  "q": [
-    "cite"
-  ],
+  "q": ["cite"],
   "dfn": [],
   "abbr": [],
   "ruby": [],
   "rb": [],
   "rt": [],
   "rp": [],
-  "time": [
-    "datetime"
-  ],
+  "time": ["datetime"],
   "code": [],
   "var": [],
   "samp": [],
@@ -162,22 +113,12 @@
   "u": [],
   "mark": [],
   "bdi": [],
-  "bdo": [
-    "dir"
-  ],
+  "bdo": ["dir"],
   "span": [],
-  "br": [
-    "clear"
-  ],
+  "br": ["clear"],
   "wbr": [],
-  "ins": [
-    "cite",
-    "datetime"
-  ],
-  "del": [
-    "cite",
-    "datetime"
-  ],
+  "ins": ["cite", "datetime"],
+  "del": ["cite", "datetime"],
   "picture": [],
   "img": [
     "alt",
@@ -189,12 +130,12 @@
     "width",
     "height",
     "decoding",
-    "decoding",
-    "importance",
-    "importance",
-    "intrinsicsize",
+    "loading",
     "referrerpolicy",
-    "sizes"
+    "sizes",
+    "importance",
+    "importance",
+    "intrinsicsize"
   ],
   "iframe": [
     "src",
@@ -212,12 +153,7 @@
     "importance",
     "referrerpolicy"
   ],
-  "embed": [
-    "src",
-    "type",
-    "width",
-    "height"
-  ],
+  "embed": ["src", "type", "width", "height"],
   "object": [
     "data",
     "type",
@@ -236,12 +172,7 @@
     "standby",
     "tabindex"
   ],
-  "param": [
-    "name",
-    "value",
-    "type",
-    "valuetype"
-  ],
+  "param": ["name", "value", "type", "valuetype"],
   "video": [
     "src",
     "crossorigin",
@@ -265,23 +196,9 @@
     "muted",
     "controls"
   ],
-  "source": [
-    "src",
-    "type",
-    "sizes",
-    "srcset",
-    "media"
-  ],
-  "track": [
-    "default",
-    "kind",
-    "label",
-    "src",
-    "srclang"
-  ],
-  "map": [
-    "name"
-  ],
+  "source": ["src", "type", "sizes", "srcset", "media"],
+  "track": ["default", "kind", "label", "src", "srclang"],
+  "map": ["name"],
   "area": [
     "alt",
     "coords",
@@ -295,42 +212,15 @@
     "type",
     "accesskey"
   ],
-  "table": [
-    "border",
-    "align"
-  ],
-  "caption": [
-    "align"
-  ],
-  "colgroup": [
-    "span",
-    "align"
-  ],
-  "col": [
-    "span",
-    "align"
-  ],
-  "tbody": [
-    "align"
-  ],
-  "thead": [
-    "align"
-  ],
-  "tfoot": [
-    "align"
-  ],
-  "tr": [
-    "align"
-  ],
-  "td": [
-    "colspan",
-    "rowspan",
-    "headers",
-    "abbr",
-    "align",
-    "axis",
-    "bgcolor"
-  ],
+  "table": ["border", "align"],
+  "caption": ["align"],
+  "colgroup": ["span", "align"],
+  "col": ["span", "align"],
+  "tbody": ["align"],
+  "thead": ["align"],
+  "tfoot": ["align"],
+  "tr": ["align"],
+  "td": ["colspan", "rowspan", "headers", "abbr", "align", "axis", "bgcolor"],
   "th": [
     "colspan",
     "rowspan",
@@ -354,10 +244,7 @@
     "accept",
     "autocapitalize"
   ],
-  "label": [
-    "form",
-    "for"
-  ],
+  "label": ["form", "for"],
   "input": [
     "accept",
     "alt",
@@ -417,16 +304,8 @@
     "size"
   ],
   "datalist": [],
-  "optgroup": [
-    "disabled",
-    "label"
-  ],
-  "option": [
-    "disabled",
-    "label",
-    "selected",
-    "value"
-  ],
+  "optgroup": ["disabled", "label"],
+  "option": ["disabled", "label", "selected", "value"],
   "textarea": [
     "autocomplete",
     "autofocus",
@@ -446,37 +325,14 @@
     "autocapitalize",
     "spellcheck"
   ],
-  "output": [
-    "for",
-    "form",
-    "name"
-  ],
-  "progress": [
-    "value",
-    "max"
-  ],
-  "meter": [
-    "value",
-    "min",
-    "max",
-    "low",
-    "high",
-    "optimum",
-    "form"
-  ],
-  "fieldset": [
-    "disabled",
-    "form",
-    "name"
-  ],
+  "output": ["for", "form", "name"],
+  "progress": ["value", "max"],
+  "meter": ["value", "min", "max", "low", "high", "optimum", "form"],
+  "fieldset": ["disabled", "form", "name"],
   "legend": [],
-  "details": [
-    "open"
-  ],
+  "details": ["open"],
   "summary": [],
-  "dialog": [
-    "open"
-  ],
+  "dialog": ["open"],
   "script": [
     "src",
     "type",
@@ -492,9 +348,5 @@
   ],
   "noscript": [],
   "template": [],
-  "canvas": [
-    "width",
-    "height",
-    "moz-opaque"
-  ]
+  "canvas": ["width", "height", "moz-opaque"]
 }
