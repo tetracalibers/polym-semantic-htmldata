@@ -82,8 +82,8 @@ export const flow = [
   'ul',
   'var',
   'video',
-  'wbr',
-]
+  'wbr'
+] as const
 
 export const phrasing = [
   'abbr',
@@ -131,22 +131,22 @@ export const phrasing = [
   'u',
   'var',
   'video',
-  'wbr',
-]
+  'wbr'
+] as const
 
-export const phrasingIfIncludePhasingOnly = ['a', 'del', 'ins', 'map']
+export const phrasingIfIncludePhasingOnly = ['a', 'del', 'ins', 'map'] as const
 
 export const phrasingConditional = [
   // 特定の要素を親にもつ場合
   'map > area',
   // 特定の属性を持つ場合
   'link[itemprop]',
-  'meta[itemprop]',
-]
+  'meta[itemprop]'
+] as const
 
 export const flowNotPhrasing = [
   ..._.without(flow, ...phrasing),
   ':not(map) > area',
   'link:not([itemprop])',
-  'meta:not([itemprop])',
+  'meta:not([itemprop])'
 ]
