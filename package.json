@@ -1,6 +1,10 @@
 {
   "name": "@polym/semantic-htmldata",
   "description": "Provides data on the attributes and content model of each HTML tag",
+  "keywords": [
+    "html",
+    "data"
+  ],
   "author": {
     "name": "tomixy"
   },
